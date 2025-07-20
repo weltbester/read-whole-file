@@ -1,6 +1,7 @@
 use std::fs;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+<<<<<<< HEAD
     let content = fs::read_to_string("test.txt")?;
     
     // Process the entire file content
